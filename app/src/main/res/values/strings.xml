@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StudentSupport</string>
+    <string name="map_api_key">AIzaSyAmjIrmv79FYqxPm9H04crbzmTPXIvMwjQ</string>
+
+    <!--    Menu-->
+    <string name="news">Tin tức</string>
+    <string name="schedule">Thời khóa biểu</string>
+    <string name="document">Tài liệu</string>
+    <string name="support">Hỗ trợ</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+    <string name="mark">Điểm thi - Kết quả học tập</string>
+    <string name="groups">Nhóm môn học</string>
+    <string name="competition">Danh sách các cuộc thi</string>
+    <string name="enroll">Đăng ký học lại</string>
+    <string name="bus">Xe buýt</string>
+    <string name="logout">Đăng xuất</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

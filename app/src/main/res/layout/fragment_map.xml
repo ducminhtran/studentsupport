@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.followbus.MapFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trụ sở chính:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM"
+            android:textColor="@color/black"
+            android:textSize="15sp" /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cơ sở Ung Văn Khiêm:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31/36 Ung Văn Khiêm, P.25, Q.Bình Thạnh, TP.HCM"
+            android:textColor="@color/black"
+            android:textSize="15sp" /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cơ sở 276:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="276-282 Điện Biên Phủ, P.17, Q.Bình Thạnh, TP.HCM"
+            android:textColor="@color/black"
+            android:textSize="15sp" /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Viện Công nghệ cao HUTECH:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khu Công nghệ cao TP.HCM (SHTP), P.Long Thạnh Mỹ, Q.9, TP.HCM"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trung tâm Đào tạo nhân lực Chất lượng cao HUTECH:"
+            android:textColor="#304FFE"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khu Công nghệ cao TP.HCM (SHTP), Xa lộ Hà Nội, P.Hiệp Phú, Q.9, TP.HCM"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </TableLayout>
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:src="@drawable/sododentruong2020"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
