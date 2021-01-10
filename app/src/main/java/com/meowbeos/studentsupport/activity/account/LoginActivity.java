@@ -55,18 +55,24 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void addEvent() {
-        String userName = edUserName.getText().toString();
-        String password = edPassWord.getText().toString();
+        String userName = edUserName.getText().toString().trim();
+        String password = edPassWord.getText().toString().trim();
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                RequestObject requestObject = new RequestObject();
-                requestObject.setLoginAccount(new LoginAccount(userName, password));
-                postLoginAccount(requestObject);
-                progressDialog = new ProgressDialog(LoginActivity.this);
-                progressDialog.show();
-                progressDialog.setContentView(R.layout.progress_dialog);
-                progressDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                if(edUserName.getText().toString().isEmpty() || edPassWord.getText().toString().isEmpty()){
+                    Toast.makeText(LoginActivity.this, "Lỗi, vui lòng thử lại", Toast.LENGTH_LONG).show();
+                }
+                else {
+                    RequestObject requestObject = new RequestObject();
+                    requestObject.setLoginAccount(new LoginAccount(userName, password));
+                    postLoginAccount(requestObject);
+                    progressDialog = new ProgressDialog(LoginActivity.this);
+                    progressDialog.show();
+                    progressDialog.setContentView(R.layout.progress_dialog);
+                    progressDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                }
+
             }
         });
     }
